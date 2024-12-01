@@ -27,8 +27,8 @@ const CustomerTestimonials = () => {
                 <FaStar />
               </div>
               {/* Testimonial Text */}
-              <p className="  mt-4 max-w-lg text-center mx-auto">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan eros nec diam gravida, eu blandit turpis facilisis."
+              <p className="mt-4 max-w-lg text-center mx-auto">
+                &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan eros nec diam gravida, eu blandit turpis facilisis.&quot;
               </p>
             </div>
             <div className="flex justify-center items-center space-x-4 mt-4">
@@ -40,41 +40,42 @@ const CustomerTestimonials = () => {
                 className="rounded-full"
               />
               <div className='flex flex-col items-center'>
-              <h1 className='font-semibold'>James Nduku</h1>
-              <p className='font-normal'>Software Developer</p>
+                <h1 className='font-semibold'>James Nduku</h1>
+                <p className='font-normal'>Software Developer</p>
+              </div>
             </div>
           </div>
-          </div>
+
           {/* Testimonial 2 */}
-<div className="bg-primary p-6 border border-black text-center">
-  <div className="mb-4">
-    {/* Star Rating */}
-    <div className="flex justify-center space-x-1">
-      <FaStar />
-      <FaStar />
-      <FaStar />
-      <FaStar />
-      <FaStar />
-    </div>
-    {/* Testimonial Text */}
-    <p className="mt-4 max-w-lg mx-auto">
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan eros nec diam gravida, eu blandit turpis facilisis."
-    </p>
-  </div>
-  <div className="flex justify-center items-center space-x-4 mt-4">
-    <Image
-      src="/Image5.png"
-      alt="Customer 2"
-      width={50}
-      height={50}
-      className="rounded-full"
-    />
-    <div className='flex flex-col items-center'>
-      <h1 className='font-semibold'>Erick Kipkemboi</h1>
-      <p className="font-normal">Scrum Master</p>
-    </div>
-  </div>
-</div>
+          <div className="bg-primary p-6 border border-black text-center">
+            <div className="mb-4">
+              {/* Star Rating */}
+              <div className="flex justify-center space-x-1">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+              </div>
+              {/* Testimonial Text */}
+              <p className="mt-4 max-w-lg mx-auto">
+                &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan eros nec diam gravida, eu blandit turpis facilisis.&quot;
+              </p>
+            </div>
+            <div className="flex justify-center items-center space-x-4 mt-4">
+              <Image
+                src="/Image5.png"
+                alt="Customer 2"
+                width={50}
+                height={50}
+                className="rounded-full"
+              />
+              <div className='flex flex-col items-center'>
+                <h1 className='font-semibold'>Erick Kipkemboi</h1>
+                <p className="font-normal">Scrum Master</p>
+              </div>
+            </div>
+          </div>
 
           {/* Testimonial 3 */}
           <div className="bg-primary p-6 border border-black text-center">
@@ -89,22 +90,22 @@ const CustomerTestimonials = () => {
               </div>
               {/* Testimonial Text */}
               <p className="mt-4">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan eros nec diam gravida, eu blandit turpis facilisis."
+                &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan eros nec diam gravida, eu blandit turpis facilisis.&quot;
               </p>
             </div>
             <div className="flex justify-center items-center space-x-4 mt-4">
-  <Image
-    src="/Image2.png"
-    alt="Customer 3"
-    width={50}
-    height={50}
-    className="rounded-full"
-  />
-  <div className="flex flex-col items-center">
-    <h1 className="font-semibold">Stephen Kerubo</h1>
-    <p className="font-normal ">UI/UX Designer</p>
-  </div>
-</div>
+              <Image
+                src="/Image2.png"
+                alt="Customer 3"
+                width={50}
+                height={50}
+                className="rounded-full"
+              />
+              <div className="flex flex-col items-center">
+                <h1 className="font-semibold">Stephen Kerubo</h1>
+                <p className="font-normal ">UI/UX Designer</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
